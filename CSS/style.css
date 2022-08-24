@@ -1,0 +1,80 @@
+ /* Setup Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+
+ /* Everything */
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+/* Heading */
+
+ header {
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+ }
+
+
+ header p {
+    font-family: 'DynaPuff', cursive;
+    letter-spacing: 2px;
+    font-size: small;
+    color: #fff;
+    margin: 20px 10px;
+ }
+
+ h1 {
+    font-size: 350%;
+ }
+
+h2 {
+    font-size: 250%;
+}
+
+ h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    margin: 10px 10px;
+}
+
+
+ 
+ #dino-62-image {
+    float: right;
+    height: 250px;
+    width: 250px;
+    background: url('../IMAGES/dino-origin-62.webp') no-repeat center center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-top: 25px;
+    animation-name: dino-zoom-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+ }
+ 
+ @keyframes dino-zoom-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.25);
+    }
+}
+
+
+ /*
+ #rainforest-image {
+    height: 250px;
+    width: 100%;
+    background: url('../IMAGES/rainforest.webp') no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+ }
+ */
