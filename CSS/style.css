@@ -8,7 +8,7 @@
     padding: 0;
  }
 
-/* Heading */
+/* Header */
 
  header {
     margin: 0 auto;
@@ -23,7 +23,7 @@
     letter-spacing: 2px;
     font-size: small;
     color: #fff;
-    margin: 20px 10px;
+    margin: 20px 20px;
  }
 
  h1 {
@@ -39,11 +39,10 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
-    margin: 10px 10px;
+    margin: 10px 20px;
 }
 
-
- 
+ /* Header Image and Animation */
  #dino-62-image {
     float: right;
     height: 250px;
@@ -67,14 +66,63 @@ h2 {
     }
 }
 
+/* Navagtion*/
 
- /*
- #rainforest-image {
-    height: 250px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #66cc00;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+ nav li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    color: red;
+  }
+
+/* Section */
+
+section {
+    height: 200px;
     width: 100%;
-    background: url('../IMAGES/rainforest.webp') no-repeat center center;
-    overflow: hidden;
-    position: relative;
-    border-radius: 20px;
- }
- */
+}
+
+
+/* Footer */
+
+footer {
+    display: inline-block;
+    height: 100px;
+}
+
+#left-foot {
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+    background-color: greenyellow;
+}
+
+#right-foot {
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+    background-color: black;
+}
+
