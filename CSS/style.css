@@ -78,6 +78,7 @@ nav ul {
   nav li a {
     display: inline;
     text-align: center;
+    color: #66cc00;
     padding: 25px;
     position: relative;
     font-family: 'DynaPuff', cursive;
@@ -92,13 +93,13 @@ li a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   padding: 25px;
-  color: #66cc00;
 }
 
 /* Section */
 
 section {
     width: 75%;
+    height: 500px;
     clear: both;
     padding-top: 50px;
     margin: auto;
@@ -107,29 +108,61 @@ section {
 
 /* Footer */
 
-footer h2 {
-    font-size: 75%;
-}
-
 footer {
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
 }
 
-#float-left {
+footer h2 {
+  font-size: 100%;
+}
+
+.float-left {
   float: left;
   width: 25%;
+  height: 250px;
   background-color: #000;
-  box-sizing: border-box;
-  border: 2px solid #fff;
+  text-align: center;
+  padding-top: 20px;
 }
 
-#float-right {
+.float-right {
   float: right;
   width: 25%;
+  height: 250px;
   background-color: #000;
-  box-sizing: border-box;
-  border: 2px solid #fff;
+  text-align: center;
+  padding-top: 20px;
 }
 
+footer a {
+  color: #fff;
+  font-size: 100%;
+}
+
+footer li {
+  margin: .5em;
+}
+
+.social-media i {
+  font-size: 300%;
+  padding: 12px;
+  color: #fff;
+}
+
+.float-center {
+  float: right;
+  position: relative;
+  right: 10%;
+  text-align: left;
+}
+
+.float-center li {
+  display: inline;
+  padding-bottom: 10%;
+}
+
+form {
+  color: #fff;
+  width: 90%;
+}

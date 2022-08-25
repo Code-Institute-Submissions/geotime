@@ -20,7 +20,7 @@
         <div id="dino-62-image"></div>
         <h1>Geological Time Line</h1>
         <h2>Mesozoic Era</h2>
-        <p>Amatuer Trying to Piece Together The Geological Time Line - One Eon at a Time!</p>
+        <p>One Amatuer Trying to Piece Together The Geological Time Line - One Eon at a Time!</p>
 
         <nav>
             <ul>
@@ -37,17 +37,25 @@
     </section>
 
     <footer>
-        <div id="float-left">   
+        <div class="float-left">   
             <h2>News Letter</h2>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="timeline.html">Time Line</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            
+            <form>
+
+                <fieldset>
+                    <legend>News Letter</legend>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="Forename"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Surname"><br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+
+            </form>
 
         </div>
 
-        <div id="float-left">   
+        <div class="float-left">   
             <h2>Research & Credits</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -57,17 +65,23 @@
 
         </div>
 
-        <div id="float-right">   
-            <h2>Media</h2>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="timeline.html">Time Line</a></li>
-                <li><a href="contact.html">Contact</a></li>
+        <div class="float-right"> 
+              
+            <h2>Social-Media</h2>
+
+            <ul class="social-media float-center">
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in new tab)"><i class="fa-brands fa-square-twitter"></i></a></li>
+                </ul>
+
+            <ul class="social-media float-center">
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
             </ul>
 
         </div>
 
-        <div id="float-right">   
+        <div class="float-right">   
             <h2>Site Map</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -79,6 +93,8 @@
 
 
     </footer>
+
+    <script src="https://kit.fontawesome.com/b9574f2a4f.js" crossorigin="anonymous"></script>
     
 </body>
 </html>
