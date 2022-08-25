@@ -115,24 +115,28 @@ footer {
 
 footer h2 {
   font-size: 100%;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #66cc00;
 }
 
 .float-left {
   float: left;
   width: 25%;
-  height: 250px;
+  height: 350px;
   background-color: #000;
   text-align: center;
-  padding-top: 20px;
+  box-sizing: border-box;
+  border: 20px solid #000;
 }
 
 .float-right {
   float: right;
   width: 25%;
-  height: 250px;
+  height: 350px;
   background-color: #000;
   text-align: center;
-  padding-top: 20px;
+  box-sizing: border-box;
+  border: 20px solid #000;
 }
 
 footer a {
@@ -141,7 +145,7 @@ footer a {
 }
 
 footer li {
-  margin: .5em;
+  margin-bottom: 1em;
 }
 
 .social-media i {
@@ -165,4 +169,5 @@ footer li {
 form {
   color: #fff;
   width: 90%;
+  padding-left: 9%;
 }
