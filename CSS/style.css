@@ -2,7 +2,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
 
- /* Everything */
+ /* Everything Zero */
+
  * {
     margin: 0;
     padding: 0;
@@ -11,9 +12,7 @@
 /* Header */
 
  header {
-    margin: 0 auto;
-    width: 100%;
-    height: 200px;
+    height: 230px;
     background-color: #000;
  }
 
@@ -23,7 +22,8 @@
     letter-spacing: 2px;
     font-size: small;
     color: #fff;
-    margin: 20px 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
  }
 
  h1 {
@@ -39,7 +39,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
-    margin: 10px 20px;
+    padding: 10px 20px;
 }
 
  /* Header Image and Animation */
@@ -48,10 +48,8 @@ h2 {
     height: 250px;
     width: 250px;
     background: url('../IMAGES/dino-origin-62.webp') no-repeat center center;
-    overflow: hidden;
     border-radius: 50%;
-    margin-right: 75px;
-    margin-top: 25px;
+    margin: 35px 75px 0 0;
     animation-name: dino-zoom-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -70,10 +68,7 @@ h2 {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: #66cc00;
+    background-color: #000;
   }
   
   nav li {
@@ -81,48 +76,60 @@ nav ul {
   }
   
   nav li a {
-    display: block;
-    color: white;
+    display: inline;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    position: relative;
+    font-family: 'DynaPuff', cursive;
   }
   
  nav li a:hover {
-    background-color: #111;
+    background-color: #222;
   }
 
-  .active {
-    color: red;
-  }
+
+li a { 
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 25px;
+  color: #66cc00;
+}
 
 /* Section */
 
 section {
-    height: 200px;
-    width: 100%;
+    width: 75%;
+    clear: both;
+    padding-top: 50px;
+    margin: auto;
 }
 
 
 /* Footer */
 
+footer h2 {
+    font-size: 75%;
+}
+
 footer {
-    display: inline-block;
-    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-#left-foot {
-    float: left;
-    width: 25%;
-    margin: 0 auto;
-    background-color: greenyellow;
+#float-left {
+  float: left;
+  width: 25%;
+  background-color: #000;
+  box-sizing: border-box;
+  border: 2px solid #fff;
 }
 
-#right-foot {
-    float: left;
-    width: 25%;
-    margin: 0 auto;
-    background-color: black;
+#float-right {
+  float: right;
+  width: 25%;
+  background-color: #000;
+  box-sizing: border-box;
+  border: 2px solid #fff;
 }
 
