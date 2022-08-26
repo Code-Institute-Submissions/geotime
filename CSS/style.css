@@ -20,7 +20,7 @@
  header p {
     font-family: 'DynaPuff', cursive;
     letter-spacing: 2px;
-    font-size: small;
+    font-size: 0.9rem;
     color: #fff;
     margin-bottom: 30px;
     margin-left: 20px;
@@ -51,7 +51,7 @@ h2 {
     border-radius: 50%;
     margin: 35px 75px 0 0;
     animation-name: dino-zoom-zoom;
-    animation-duration: 5s;
+    animation-duration: 7.5s;
     animation-fill-mode: forwards;
  }
  
@@ -103,6 +103,10 @@ section {
     clear: both;
     padding-top: 50px;
     margin: auto;
+}
+
+section p {
+  line-height: 2;
 }
 
 
@@ -205,6 +209,11 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  outline: none;
   background-color: #45a049;
 }
 
