@@ -111,6 +111,8 @@ section {
 footer {
     position: relative;
     width: 100%;
+    background-color: #000;
+    height: 600px;
 }
 
 footer h2 {
@@ -122,21 +124,19 @@ footer h2 {
 .float-left {
   float: left;
   width: 25%;
-  height: 350px;
-  background-color: #000;
   text-align: center;
   box-sizing: border-box;
   border: 20px solid #000;
+  background-color: inherit;
 }
 
 .float-right {
   float: right;
   width: 25%;
-  height: 350px;
-  background-color: #000;
   text-align: center;
   box-sizing: border-box;
   border: 20px solid #000;
+  background-color: inherit;
 }
 
 footer a {
@@ -169,5 +169,42 @@ footer li {
 form {
   color: #fff;
   width: 90%;
-  padding-left: 9%;
+  padding-left: 4%;
 }
+
+/* Form Styling */
+
+input[type=text], input[type=email], input[type=submit] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #66cc00;
+  border-radius: 4px;
+}
+
+fieldset {
+  box-sizing: border-box;
+  border: 2px solid #66cc00;
+  border-radius: 4px;
+  padding: 1%;
+  font-size: 1.1rem;
+}
+
+label {
+  font-size: 1.1rem;
+  display: block;
+  float: left;
+  padding: 2% 5%;
+}
+
+input[type=submit] {
+  background-color: #66cc00;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
