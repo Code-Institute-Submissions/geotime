@@ -20,3 +20,23 @@ GitPod
 Draw.io  
 Font Awesome  
 w3 validator  
+
+
+### Reseach and Sites to Credit   
+
+#### Credits to Geological Sites    
+[Geological Survey Ireland](https://www.example.com)   
+[Big Think](https://bigthink.com/life/evolution-of-rainforests/)  
+
+#### Credits to Sites who aided my coding.   
+[CCS Tricks](https://css-tricks.com/)   
+[W3Schools](https://www.w3schools.com/)   
+[Markdown Guide](https://www.markdownguide.org/cheat-sheet/)   
+[Google Fonts](https://fonts.google.com/)   
+
+ 
+[]()   
+[]()   
+[]()   
+[]()   
+[]()   
