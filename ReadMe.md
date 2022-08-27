@@ -34,7 +34,7 @@ w3 validator
 [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)   
 [Google Fonts](https://fonts.google.com/)   
 [Diagrams - Wireframe](https://app.diagrams.net/)   
-[]()   
+[Freepik](<a href="https://www.freepik.com/free-vector/earth-map-scheme-isolated-white_27222641.htm#query=earth&position=1&from_view=search">Image by Upl56</a> on Freepik)     
 []()   
 []()   
 []()   
@@ -43,5 +43,14 @@ w3 validator
 Need to nail css postitioning.  
 
 ### Crash Courses to Take   
-Colors
-Design & Art   
+Web Color and just learning how to match colors.   
+Design   
+
+## CCE Common Continous Errors (Bad Habits)   
+Typo's  
+Typo's  
+Typo's  
+Forgetting . or # in CSS   
+Keep mixing up margin and padding.   
+
+
