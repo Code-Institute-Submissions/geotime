@@ -9,32 +9,26 @@
     padding: 0;
  }
 
-/* Header */
+/* Header & Headings */
 
  header {
     height: 250px;
     background-color: #000;
  }
 
-
  header p {
     font-family: 'DynaPuff', cursive;
     letter-spacing: 0.2rem;
     font-size: 0.9rem;
     color: #fff;
-    margin-bottom: 30px;
-    margin-left: 20px;
+    margin: 5px 0 0 55px;
  }
 
- h1 {
-    font-size: 350%;
+ header h1, header h2 {
+    margin-left: 35px;
  }
 
-h2 {
-    font-size: 250%;
-}
-
- h1, h2 {
+ header h1, header h2, footer h1, footer h2, footer h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -42,7 +36,27 @@ h2 {
     padding: 10px 20px;
 }
 
+h1 {
+  font-size: 350%;
+}
+
+h2 {
+  font-size: 250%;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+h4 {
+  padding: 30px 0 20px 0;
+  font-size: 1.1rem;
+  font-family: 'DynaPuff', cursive;
+}
+
  /* Header Image and Animation */
+
  #dino-62-image {
     float: right;
     height: 250px;
@@ -69,6 +83,7 @@ h2 {
 nav ul {
     list-style-type: none;
     background-color: #000;
+    margin-top: 25px;
   }
   
   nav li {
@@ -84,6 +99,7 @@ nav ul {
     font-family: 'DynaPuff', cursive;
     font-size: 1.3rem;
     margin-bottom: 5px;
+    margin-left: 35px;
   }
   
  nav li a:hover {
@@ -91,14 +107,39 @@ nav ul {
   font-size: 1.5rem;
   }
 
-
 li a { 
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   padding: 25px;
 }
 
+p:last-child {
+  padding-bottom: 75px;
+}
+
 /* Section */
+
+section {
+  margin: 5% 0 5% 0;
+}
+
+section p {
+  line-height: 2rem;
+  padding: 10px 0 10px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+section > h1, h2, h3, h4 {
+  color: #000;
+}
+
+.section-float-left {
+  width: 60%;
+  float: left;
+  margin-left: 5%;
+  clear: both;
+}
 
 details {
   font-family: 'Roboto', sans-serif;
@@ -122,17 +163,7 @@ cite a:hover {
   font-size: 1rem;
 }
 
-section p {
-  line-height: 2rem;
-  padding: 10px 0 10px 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-.section-float-left {
-  width: 60%;
-  float: left;
-  margin-left: 5%;
-}
+/* Aside */
 
 .aside-float-right{
   width: 25%;
@@ -146,9 +177,10 @@ aside {
   font-size: 0.9rem;
   border: 2px solid #45a049;
   padding: 0 1%;
-  margin-top: 3%;
+  margin: 5% 0 5% 0;
 }
 
+/* Span */
 
 span {
   color: #45a049;
@@ -164,22 +196,6 @@ span:hover > a {
   font-size: 1.2rem;
   color: #66cc00;
 }
-
-p:last-child {
-  padding-bottom: 75px;
-}
-
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.3rem;
-}
-
-h4 {
-  padding: 30px 0 20px 0;
-  font-size: 1.1rem;
-  font-family: 'DynaPuff', cursive;
-}
-
 
 /* Footer */
 
@@ -290,3 +306,6 @@ input[type=text]:focus, input[type=email]:focus {
   background-color: #45a049;
 }
 
+footer h3 {
+  font-size: 1.2rem;
+}
