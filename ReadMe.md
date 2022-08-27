@@ -33,10 +33,15 @@ w3 validator
 [W3Schools](https://www.w3schools.com/)   
 [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)   
 [Google Fonts](https://fonts.google.com/)   
+[Diagrams - Wireframe](https://app.diagrams.net/)   
+[]()   
+[]()   
+[]()   
+[]()   
 
- 
-[]()   
-[]()   
-[]()   
-[]()   
-[]()   
+## Things I would have like to have done and will do.  
+Need to nail css postitioning.  
+
+### Crash Courses to Take   
+Colors
+Design & Art   

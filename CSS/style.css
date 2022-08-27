@@ -82,10 +82,13 @@ nav ul {
     padding: 25px;
     position: relative;
     font-family: 'DynaPuff', cursive;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
   }
   
  nav li a:hover {
   color: #66cc00;
+  font-size: 1.5rem;
   }
 
 
