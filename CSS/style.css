@@ -68,6 +68,18 @@ h4 {
     animation-duration: 7.5s;
     animation-fill-mode: forwards;
  }
+
+ #dino-63-image {
+  float: right;
+  height: 250px;
+  width: 250px;
+  background: url('../IMAGES/Pteranodon\,_DinoPark_Košice_Crop.jpg') no-repeat center center;
+  border-radius: 50%;
+  margin: 35px 75px 0 0;
+  animation-name: dino-zoom-zoom;
+  animation-duration: 7.5s;
+  animation-fill-mode: forwards;
+}
  
  @keyframes dino-zoom-zoom {
     from{
@@ -105,6 +117,11 @@ nav ul {
  nav li a:hover {
   color: #66cc00;
   font-size: 1.5rem;
+  }
+
+  .activated {
+    color: silver;
+    font-size: 1.5rem;
   }
 
 li a { 
@@ -168,6 +185,7 @@ cite a:hover {
 .aside-float-right{
   width: 25%;
   float: right;
+  border: 2px solid #45a049;
   margin-right: 5%;
 }
 
@@ -175,7 +193,6 @@ aside {
   line-height: 1.5rem;
   font-family: 'Roboto', sans-serif;
   font-size: 0.9rem;
-  border: 2px solid #45a049;
   padding: 0 1%;
   margin: 5% 0 5% 0;
 }
@@ -259,15 +276,15 @@ footer li {
   padding-bottom: 10%;
 }
 
+/* Form Styling */
+
 form {
   color: #fff;
   width: 90%;
   padding-left: 4%;
 }
 
-/* Form Styling */
-
-input[type=text], input[type=email], input[type=submit] {
+footer input[type=text], footer input[type=email], footer input[type=submit] {
   width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -284,7 +301,7 @@ fieldset {
   font-size: 1.1rem;
 }
 
-label {
+footer label {
   font-size: 1.1rem;
   display: block;
   float: left;
@@ -308,4 +325,48 @@ input[type=text]:focus, input[type=email]:focus {
 
 footer h3 {
   font-size: 1.2rem;
+}
+
+/* Form Contact */
+
+input[type=text], input[type=email], input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 1px 0;
+  box-sizing: border-box;
+  border: 2px solid #45a049;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 98px;
+  box-sizing: border-box;
+  border: 2px solid #45a049;
+  border-radius: 4px;
+}
+
+/* Google iFrame Map */
+
+.mapouter {
+  position: absolute;
+  text-align:right;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+}
+
+.aside-float-right-iframe {
+  width: 25%;
+  float: left;
+  padding-top: 7.5px;
+}
+
+iframe {
+  width: 350px;
+  height: 600px;
+  padding: 2px 2px;
+  border: 2px solid #45a049;
 }

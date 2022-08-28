@@ -27,6 +27,8 @@ w3 validator
 #### Credits to Geological Sites    
 [Geological Survey Ireland](https://www.example.com)   
 [Big Think](https://bigthink.com/life/evolution-of-rainforests/)  
+[Wiki Picture](https://commons.wikimedia.org/wiki/File:Pteranodon,_DinoPark_Ko%C5%A1ice.jpg)    
+
 
 #### Credits to Sites who aided my coding.   
 [CCS Tricks](https://css-tricks.com/)   
@@ -34,8 +36,7 @@ w3 validator
 [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)   
 [Google Fonts](https://fonts.google.com/)   
 [Diagrams - Wireframe](https://app.diagrams.net/)   
-[Freepik](<a href="https://www.freepik.com/free-vector/earth-map-scheme-isolated-white_27222641.htm#query=earth&position=1&from_view=search">Image by Upl56</a> on Freepik)     
-[]()   
+[Freepik](<a href="https://www.freepik.com/free-vector/earth-map-scheme-isolated-white_27222641.htm#query=earth&position=1&from_view=search">Image by Upl56</a> on Freepik)      
 []()   
 []()   
 

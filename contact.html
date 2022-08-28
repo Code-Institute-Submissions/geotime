@@ -7,7 +7,7 @@
     <meta name="description" content="Amatuer Learning The Geological Time Line">
     <meta name="keywords" content="reptiles, Mesozoic, dinosaurs, Geological Time Line"> 
 
-    <title>The Time of Reptiles</title>
+    <title>Time To Make Contact</title>
 
     <link href="CSS/style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="IMAGES/Earth_freepik.jpeg">
@@ -18,7 +18,7 @@
 
     <header>
 
-        <div id="dino-62-image"></div>
+        <div id="dino-63-image"></div>
         <h1>Geological Time</h1>
         <h2>Mesozoic Era</h2>
         <p>One Amatuer Trying to Piece Together Geological Time - One Eon at a Time!</p>
@@ -27,7 +27,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="timescale.html">Time Line</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="activated">Contact</a></li>
             </ul>
         </nav>
         
@@ -35,52 +35,58 @@
 
     <section class="section-float-left">
 
-            <h3>Hello and welcome, I hope you can join me on my journey in exploring Geological Time during the Mesozoic Era.</h3>
-            <h4>First answers to the latest questions being asked.</h4>
+        <form action="mailto:funnymail@funny.com" method="post">
 
-                <details>
-                    <summary>What is the Geologial Time Scale (GTS)?</summary>
-                    <p>The geological time scale relates stratigraphy (layers of rock) to periods of time. The time scale is used by geologists, palaeontologists and many other Earth scientists to date certain historical events on Earth.</p>
-                    <cite><a href="https://www.gsi.ie/en-ie/education/our-planet-earth/Pages/Geological-Time.aspx" target="_blank">"Geologial Survey Ireland"</a></cite>
-                </details>
+            <fieldset>
+            
+                <legend><h3>Make Contact</h3></legend>
 
-                <details>
-                    <summary>What are Eon's, Era's, Period's, Epoch's?</summary>
-                    <p><span>Eon: </span>An Eon is a period of time greater than half a billion years. Eons are split into smaller units called Eras.</p>
-                    <p><span>Era: </span>Eras which last several hundreds of millions of years. Eras are split into smaller again units known as Periods.</p>
-                    <p><span>Period: </span>Periods which are again split into smaller units called Epochs.​</p>
-                    <p><span>Epoch: </span>Smaller than a period.</p>
-                    <cite><a href="https://www.gsi.ie/en-ie/education/our-planet-earth/Pages/Geological-Time.aspx" target="_blank">"Geologial Survey Ireland"</a></cite>
-                </details>
+                <p>
+                    <label for="cfname">First Name</label>
+                    <input type="text" id="cfname" name="cfname" value="" placeholder="Your first name.." required>
+                </p>
 
-        <p>
-            Now it is time to head on over to the <span><a href="timescale.html">Time Line</a></span> section on the Mesozoic Era and start exploring. Remember to sign up
-            to the newsletter to keep up to date. Please make contact and forward questions, or make requests on what to explore next.
-        </p>
+                <p>
+                    <label for="clname">Last Name</label><br>
+                    <input type="text" id="clname" name="clname" value="" placeholder="Your last name..." required>
+                </p>
+                
+                <p>
+                    <label for="cemail">eMail</label><br>
+                    <input type="email" id="cemail" name="cemail" value="" placeholder="Your email address..." required>
+                </p>
 
-    </section>
+                <h3>Comments</h3>
+                <p>
+                    <textarea></textarea>
+                </p>
 
-    <aside class="aside-float-right">
-        <h4>Upcoming Project - "Vegan Dino's"</h4>
-        <p>
-            eMails are pouring in on peoples favoutite dinosuars. 
-            It seems that plant eating dinosaurs are very popular. 
-            If you are interested in this project, 
-            foward your favoutite vegan dino name along with a link to a photo or video for more information. 
-            Use the <span><a href="contact.html">Contact</a></span>  page to join the project.
-        </p>
-        
-        <h4>Herbivorous dinosaurs</h4>
-        <p>186 dinosaurs that ate plants.</p>
-        <p><small><em>Comming Soon!</em></small></p>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
 
-    </aside>
+            </fieldset>
+
+        </form>
+
+        </section>
+
+        <aside class="aside-float-right-iframe">
+
+            <div class="mapouter">
+
+                <div class="gmap_canvas">
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Dinosaur%20valley%20state%20park&t=k&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                </div>
+            </div>
+
+        </aside>
 
     <footer>
         <div class="float-left">   
             <h2>News Letter</h2>
             
-            <form action="mailto:mailtome@funkeymail.com" method="post">
+            <form action="mailto:funny@funny.mail" method="post">
 
                 <fieldset>
                 
@@ -88,17 +94,17 @@
 
                     <p>
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="fname" value="" placeholder="Your first name.." required >
+                        <input type="text" id="fname" name="fname" value="" placeholder="Your first name.." required>
                     </p>
 
                     <p>
                         <label for="lname">Last Name</label><br>
-                        <input type="text" id="lname" name="lname" value="" placeholder="Your last name..." required >
+                        <input type="text" id="lname" name="lname" value="" placeholder="Your last name..." required>
                     </p>
                     
                     <p>
                         <label for="email">eMail</label><br>
-                        <input type="email" id="email" name="email" value="" placeholder="Your email address..." required >
+                        <input type="email" id="email" name="email" value="" placeholder="Your email address..." required>
                     </p>
 
                     <p>
