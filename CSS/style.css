@@ -370,3 +370,17 @@ iframe {
   padding: 2px 2px;
   border: 2px solid #45a049;
 }
+
+/* Tables */
+
+table, th, td {
+  border: 1px solid #45a049;
+  padding: 5px 5px;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+td:hover, th:hover {
+  background-color: #45a049;
+}
