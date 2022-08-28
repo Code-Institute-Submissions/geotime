@@ -381,6 +381,28 @@ table, th, td {
   font-family: 'Roboto', sans-serif;
 }
 
+th {
+  font-size: 1.2rem;
+  color: yellow;
+}
+
+th:first-child {
+  font-size: 1.5rem;
+}
+
 td:hover, th:hover {
   background-color: #45a049;
+}
+
+.gsi-image {
+  width: 300px;
+  height: 300px;
+}
+
+.gsi-image:hover {
+  position: relative;
+  top: -50px;
+  left: -450px;
+  width: 600px;
+  height: 600px;
 }
