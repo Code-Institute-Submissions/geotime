@@ -1,0 +1,251 @@
+ /* Setup Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+
+ /* Everything Zero */
+
+ * {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+/* Header & Headings */
+
+ header {
+    height: 225px;
+    background-color: #000;
+ }
+
+ header p {
+    font-family: 'DynaPuff', cursive;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+    color: #fff;
+    margin: 5px 0 0 55px;
+ }
+
+ header h1, header h2 {
+    margin-left: 35px;
+ }
+
+ header h1, header h2, footer h1, footer h2, footer h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+h2 {
+  font-size: 150%;
+  padding-bottom: 1%;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+h4 {
+  padding: 30px 0 20px 0;
+  font-size: 1.1rem;
+  font-family: 'DynaPuff', cursive;
+}
+
+ /* Header Image and Animation */
+
+ #dino-62-image {
+    float: right;
+    height: 250px;
+    width: 250px;
+    background: url('../IMAGES/Raptor-pikistLR.jpg') no-repeat center center;
+    border-radius: 50%;
+    margin: 35px 75px 0 0;
+    animation-name: dino-zoom-zoom;
+    animation-duration: 7.5s;
+    animation-fill-mode: forwards;
+ }
+
+ #dino-63-image {
+  float: right;
+  height: 250px;
+  width: 250px;
+  background: url('../IMAGES/Pteranodon\,_DinoPark_Košice_Crop.jpg') no-repeat center center;
+  border-radius: 50%;
+  margin: 35px 75px 0 0;
+  animation-name: dino-zoom-zoom;
+  animation-duration: 7.5s;
+  animation-fill-mode: forwards;
+}
+
+#dino-64-image {
+  float: right;
+  height: 250px;
+  width: 250px;
+  background: url('../IMAGES/triceratops-8171605.png') no-repeat center center;
+  border-radius: 50%;
+  margin: 35px 75px 0 0;
+  animation-name: dino-zoom-zoom;
+  animation-duration: 7.5s;
+  animation-fill-mode: forwards;
+}
+ 
+ @keyframes dino-zoom-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.25);
+    }
+}
+
+/* Navagtion */
+
+nav ul {
+    list-style-type: none;
+    background-color: #000;
+    margin-top: 25px;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: inline;
+    text-align: center;
+    color: #45a049;
+    padding: 25px;
+    position: relative;
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    margin-left: 35px;
+  }
+  
+ nav li a:hover {
+  color: #66cc00;
+  font-size: 1.5rem;
+  }
+
+  .activated {
+    color: silver;
+    font-size: 1.5rem;
+  }
+
+li a { 
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 25px;
+}
+
+p:last-child {
+  padding-bottom: 75px;
+}
+
+
+/* Sections */
+
+.wide-one {
+    width: 90%;
+    padding: 1% 0;
+    clear: both;
+}
+
+/* Aside */
+
+.aside-float-left {
+  width: 30%;
+  height: auto;
+  float: left;
+  border: 2px solid #45a049;
+  margin: 1% 1% 2% 2%;
+}
+
+aside {
+  line-height: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+}
+
+
+/* Tables */
+
+table {
+  margin: 0 0 5% 0;
+}
+
+table, th, td {
+    border: 1px solid #45a049;
+    padding: 5px 5px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  th {
+    font-size: 1.2rem;
+    color: yellow;
+  }
+  
+  th:first-child {
+    font-size: 1.5rem;
+  }
+  
+  td:hover, th:hover {
+    background-color: #45a049;
+  }
+
+
+
+/* GSI Styling */
+/* Details     */
+
+details {
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 10px;
+  margin-left: 3%;
+}
+
+summary {
+  padding-bottom: 10px;
+  font-family: 'DynaPuff', cursive;
+}
+
+cite a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #45a049;
+}
+
+cite a:hover {
+  color: #66cc00;
+  font-size: 1rem;
+}
+
+.gsi-image {
+    width: 300px;
+    height: 300px;
+    margin-left: 7.5%;
+  }
+  
+  .gsi-image:hover {
+    position: relative;
+    top: -10px;
+    left: -75px;
+    width: 450px;
+    height: 450px;
+  }
+
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 50px 0 10px 0;
+  }
