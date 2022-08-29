@@ -13,7 +13,7 @@
 /* Header & Headings */
 
  header {
-    height: 225px;
+    height: 250px;
     background-color: #000;
  }
 
@@ -29,6 +29,11 @@
     margin-left: 35px;
  }
 
+ header h1 {
+  position: relative;
+  top: 4%;
+ }
+
  header h1, header h2, footer h1, footer h2, footer h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -38,11 +43,11 @@
 }
 
 h1 {
-  font-size: 250%;
+  font-size: 300%;
 }
 
 h2 {
-  font-size: 150%;
+  font-size: 200%;
   padding-bottom: 1%;
 }
 
@@ -241,6 +246,7 @@ cite a:hover {
     left: -75px;
     width: 450px;
     height: 450px;
+    transition-duration: 5s;
   }
 
   video {
@@ -255,3 +261,135 @@ cite a:hover {
     text-decoration: none;
     color: #45a049;
   }
+
+/* Span */
+
+span {
+  color: #45a049;
+  font-size: 1.1rem;
+}
+
+span a {
+  text-decoration: none;
+  color: #45a049;
+}
+
+span:hover > a {
+  font-size: 1.2rem;
+  color: #66cc00;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  height: 600px;
+  padding-top: 30px;
+  clear: both;
+}
+
+footer h2 {
+  font-size: 100%;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #45a049;
+}
+
+.float-left {
+  float: left;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 20px solid #000;
+  background-color: inherit;
+}
+
+.float-right {
+  float: right;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 20px solid #000;
+  background-color: inherit;
+}
+
+footer a {
+  color: #fff;
+  font-size: 100%;
+}
+
+footer li {
+  margin-bottom: 1em;
+}
+
+.social-media i {
+  font-size: 300%;
+  padding: 12px;
+  color: #fff;
+}
+
+.float-center {
+  float: right;
+  position: relative;
+  right: 10%;
+  text-align: left;
+}
+
+.float-center li {
+  display: inline;
+  padding-bottom: 10%;
+}
+
+/* Form Styling */
+
+form {
+  color: #fff;
+  width: 90%;
+  padding-left: 4%;
+}
+
+footer input[type=text], footer input[type=email], footer input[type=submit] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #45a049;
+  border-radius: 4px;
+}
+
+fieldset {
+  box-sizing: border-box;
+  border: 2px solid #45a049;
+  border-radius: 4px;
+  padding: 1%;
+  font-size: 1.1rem;
+}
+
+footer label {
+  font-size: 1.1rem;
+  display: block;
+  float: left;
+  padding: 2% 5%;
+}
+
+input[type=submit] {
+  background-color: #45a049;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+input[type=submit]:hover {
+  background-color: #66cc00;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  outline: none;
+  background-color: #45a049;
+}
+
+footer h3 {
+  font-size: 1.2rem;
+}
+
+/* Footer End */
