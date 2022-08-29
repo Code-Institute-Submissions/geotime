@@ -165,6 +165,7 @@ section > h1, h2, h3, h4 {
 
 .section-float-left {
   width: 60%;
+  height: auto;
   float: left;
   margin-left: 5%;
   clear: both;
@@ -196,6 +197,7 @@ cite a:hover {
 
 .aside-float-right {
   width: 25%;
+  height: auto;
   float: right;
   border: 2px solid #45a049;
   margin-right: 5%;
@@ -376,10 +378,18 @@ textarea {
   padding-top: 7.5px;
 }
 
-iframe {
+#iframe-map, iframe {
   width: 350px;
   height: 600px;
   padding: 2px 2px;
+  border: 2px solid #45a049;
+}
+
+#iframe-vid, iframe {
+  width: 60%;
+  height: 450px;
+  padding: 2px 2px;
+  margin-left: 5%;
   border: 2px solid #45a049;
 }
 
