@@ -153,6 +153,7 @@ p:last-child {
   padding-bottom: 75px;
 }
 
+/* Navagation End */
 
 /* Sections */
 
@@ -162,10 +163,33 @@ p:last-child {
     clear: both;
 }
 
+section {
+  margin: 5% 0 5% 0;
+}
+
+section p {
+  line-height: 2rem;
+  padding: 10px 0 10px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+section > h1, h2, h3, h4 {
+  color: #000;
+}
+
+.section-float-left {
+  width: 60%;
+  height: auto;
+  float: left;
+  margin-left: 5%;
+  clear: both;
+}
+
 /* Aside */
 
 .aside-float-left {
-  width: 30%;
+  width: 35%;
   height: auto;
   float: left;
   border: 2px solid #45a049;
@@ -178,6 +202,56 @@ aside {
   font-size: 0.9rem;
 }
 
+/* Aside End */
+
+/* Google iFrame Map (https://google-map-generator.com/) */
+
+.mapouter {
+  position: absolute;
+  text-align:right;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+}
+
+#iframe-map, iframe {
+  width: 350px;
+  height: 610px;
+  padding: 2px 2px;
+  border: 2px solid #45a049;
+}
+
+.float-right-iframe {
+  width: 35%;
+  float: right;
+  margin-top: 6%;
+  height: auto;
+}
+
+/* Google iFrame Map  End */
+
+/* Form Contact */
+
+input[type=text], input[type=email], input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 1px 0;
+  box-sizing: border-box;
+  border: 2px solid #45a049;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 98px;
+  box-sizing: border-box;
+  border: 2px solid #45a049;
+  border-radius: 4px;
+}
+
+/* Form Contact End */
 
 /* Tables */
 
