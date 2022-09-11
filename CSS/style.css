@@ -96,6 +96,9 @@ h4 {
     }
 }
 
+/* Header Image and Animation End */
+
+
 /* Navagtion */
 
 nav ul {
@@ -172,6 +175,8 @@ section > h1, h2, h3, h4 {
   margin-left: 3%;
   clear: both;
 }
+
+/* Sections End */
 
 /* Aside */
 
@@ -269,7 +274,7 @@ table, th, td {
     background-color: #45a049;
   }
 
-
+/* Table End */
 
 /* GSI Styling */
 /* Details     */
@@ -324,6 +329,8 @@ cite a:hover {
     text-decoration: none;
     color: #45a049;
   }
+
+/* GSI End */
 
 /* Span */
 
@@ -461,12 +468,9 @@ footer h3 {
 
 @media  screen and (max-width: 1200px) {
 
-
-
 }
 
 @media screen and (max-width: 950px) {
-
 
 }
 
@@ -541,6 +545,9 @@ footer h3 {
     .table-responsive > .table > tfoot > tr > td {
         white-space: nowrap;
     }
+
+
+    /* W3C CSS Check 11 Sep 2022 */
 
     /* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
 
