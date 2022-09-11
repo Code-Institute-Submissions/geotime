@@ -5,8 +5,9 @@
  /* Everything Zero */
 
  * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
  }
 
 /* Header & Headings */
@@ -28,6 +29,11 @@
     margin-left: 35px;
  }
 
+ header h1 {
+  position: relative;
+  top: 4%;
+ }
+
  header h1, header h2, footer h1, footer h2, footer h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -37,11 +43,12 @@
 }
 
 h1 {
-  font-size: 350%;
+  font-size: 300%;
 }
 
 h2 {
-  font-size: 250%;
+  font-size: 200%;
+  padding-bottom: 1%;
 }
 
 h3 {
@@ -146,7 +153,15 @@ p:last-child {
   padding-bottom: 75px;
 }
 
-/* Section */
+/* Navagation End */
+
+/* Sections */
+
+.wide-one {
+    width: 90%;
+    padding: 1% 0;
+    clear: both;
+}
 
 section {
   margin: 5% 0 5% 0;
@@ -171,9 +186,110 @@ section > h1, h2, h3, h4 {
   clear: both;
 }
 
+/* Aside */
+
+.aside-float-left {
+  width: 30%;
+  height: auto;
+  float: left;
+  border: 2px solid #45a049;
+  margin: 5% 1% 2% 2%;
+}
+
+aside {
+  line-height: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  padding: 1% 1%;
+}
+
+/* Aside End */
+
+/* Google iFrame Map (https://google-map-generator.com/) */
+
+.mapouter {
+  position: absolute;
+  text-align:right;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+}
+
+#iframe-map, iframe {
+  width: 350px;
+  height: 610px;
+  padding: 2px 2px;
+  border: 2px solid #45a049;
+}
+
+.float-right-iframe {
+  width: 35%;
+  float: right;
+  margin-top: 5%;
+  height: auto;
+}
+
+/* Google iFrame Map  End */
+
+/* Form Contact */
+
+input[type=text], input[type=email], input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 1px 0;
+  box-sizing: border-box;
+  border: 2px solid #45a049;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 98px;
+  box-sizing: border-box;
+  border: 2px solid #45a049;
+  border-radius: 4px;
+}
+
+/* Form Contact End */
+
+/* Tables */
+
+table {
+  margin: 0 0 1% 0;
+}
+
+table, th, td {
+    border: 1px solid #45a049;
+    padding: 5px 5px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  th {
+    font-size: 1.2rem;
+    color: yellow;
+  }
+  
+  th:first-child {
+    font-size: 1.5rem;
+  }
+  
+  td:hover, th:hover {
+    background-color: #45a049;
+  }
+
+
+
+/* GSI Styling */
+/* Details     */
+
 details {
   font-family: 'Roboto', sans-serif;
   padding-bottom: 10px;
+  margin-left: 3%;
 }
 
 summary {
@@ -193,23 +309,33 @@ cite a:hover {
   font-size: 1rem;
 }
 
-/* Aside */
+.gsi-image {
+    width: 300px;
+    height: 300px;
+    margin-left: 7.5%;
+  }
+  
+  .gsi-image:hover {
+    position: relative;
+    top: -10px;
+    left: -75px;
+    width: 450px;
+    height: 450px;
+    transition-duration: 5s;
+  }
 
-.aside-float-right {
-  width: 25%;
-  height: auto;
-  float: right;
-  border: 2px solid #45a049;
-  margin-right: 5%;
-}
-
-aside {
-  line-height: 1.5rem;
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.9rem;
-  padding: 0 1%;
-  margin: 5% 0 5% 0;
-}
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 3% 0 1% 0;
+  }
+    
+  .video-p a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #45a049;
+  }
 
 /* Span */
 
@@ -231,12 +357,12 @@ span:hover > a {
 /* Footer */
 
 footer {
-    position: relative;
-    width: 100%;
-    background-color: #000;
-    height: 600px;
-    padding-top: 30px;
-    clear: both;
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  height: 600px;
+  padding-top: 30px;
+  clear: both;
 }
 
 footer h2 {
@@ -341,123 +467,4 @@ footer h3 {
   font-size: 1.2rem;
 }
 
-/* Form Contact */
-
-input[type=text], input[type=email], input[type=submit] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 1px 0;
-  box-sizing: border-box;
-  border: 2px solid #45a049;
-  border-radius: 4px;
-}
-
-textarea {
-  width: 100%;
-  height: 98px;
-  box-sizing: border-box;
-  border: 2px solid #45a049;
-  border-radius: 4px;
-}
-
-/* Google iFrame Map */
-
-.mapouter {
-  position: absolute;
-  text-align:right;
-}
-
-.gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-}
-
-.aside-float-right-iframe {
-  width: 25%;
-  float: left;
-  padding-top: 7.5px;
-}
-
-#iframe-map, iframe {
-  width: 350px;
-  height: 600px;
-  padding: 2px 2px;
-  border: 2px solid #45a049;
-}
-
-#iframe-vid, iframe {
-  width: 60%;
-  height: 450px;
-  padding: 2px 2px;
-  margin-left: 5%;
-  border: 2px solid #45a049;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Tables */
-
-table, th, td {
-  border: 1px solid #45a049;
-  padding: 5px 5px;
-  background-color: #000;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-}
-
-th {
-  font-size: 1.2rem;
-  color: yellow;
-}
-
-th:first-child {
-  font-size: 1.5rem;
-}
-
-td:hover, th:hover {
-  background-color: #45a049;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* GSI Styling */
-.gsi-image {
-  width: 300px;
-  height: 300px;
-}
-
-.gsi-image:hover {
-  position: relative;
-  top: -50px;
-  left: -450px;
-  width: 600px;
-  height: 600px;
-}
+/* Footer End */
