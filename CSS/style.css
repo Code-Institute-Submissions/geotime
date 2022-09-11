@@ -42,6 +42,10 @@
     padding: 10px 20px;
 }
 
+h1, h2, h3 {
+  z-index: 100;
+}
+
 h1 {
   font-size: 300%;
 }
@@ -78,8 +82,8 @@ h4 {
 
 #dino-62-image, #dino-63-image, #dino-64-image {
   float: right;
-  height: 250px;
-  width: 250px;
+  height: 225px;
+  width: 225px;
   border-radius: 50%;
   margin: 35px 75px 0 0;
   animation-name: dino-zoom-zoom;
@@ -468,14 +472,6 @@ footer h3 {
 
 @media  screen and (max-width: 1200px) {
 
-}
-
-@media screen and (max-width: 950px) {
-
-}
-
-@media screen and (max-width: 800px) {
-
   body {
     margin: 1% 1%;
   }
@@ -496,9 +492,11 @@ footer h3 {
     margin: 0 auto;
   }
 
-  h2 {
+  h2, h3, h4 {
     font-size: 1.1rem;
     text-align: center;
+    margin: 0 2%;
+    z-index: 100;
   }
 
   header p {
@@ -530,9 +528,12 @@ footer h3 {
     clear:both;
   }
 
+  .section-float-left p {
+    margin: 0 5%;
+  }
+
   .float-right-iframe {
     width: 100%;
-    margin: 1% 1%;
     clear: both;
   }
 
@@ -566,7 +567,270 @@ footer h3 {
 
   #dino-62-image, #dino-63-image, #dino-64-image {
     position: relative;
-    left: 5%;
+    left: 1%;
+    top: 1%;
+  }
+
+  .video-space {
+    margin-top: 5%;
+  }
+
+/* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
+
+  .phone-table {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table > thead > tr > th,
+    .table-responsive > .table > tbody > tr > th,
+    .table-responsive > .table > tfoot > tr > th,
+    .table-responsive > .table > thead > tr > td,
+    .table-responsive > .table > tbody > tr > td,
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+
+    /* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
+
+    /* W3C CSS Check 11 Sep 2022 */
+
+  }
+
+@media screen and (max-width: 950px) {
+
+  body {
+    margin: 1% 1%;
+  }
+
+  header {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 200%;
+    margin: 0 auto;
+  }
+
+  header h2 {
+    margin: 0 auto;
+  }
+
+  h2, h3, h4 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0 2%;
+  }
+
+  header p {
+    padding-bottom: 10%;
+    margin: 1% 1%;
+  }
+
+  .float-right {
+    width: 100%;
+    margin: 0 auto;
+    clear:both;
+  }
+
+  .float-left {
+    width: 100%;
+    margin: 0 auto;
+    clear:both;
+  }
+
+  .aside-float-left {
+    width: 100%;
+    margin: 1% 2% 1% 0;
+    clear:both;
+  }
+
+  .section-float-left {
+    width: 100%;
+    margin: 0 auto;
+    clear:both;
+  }
+
+  .section-float-left p {
+    margin: 0 5%;
+  }
+
+  .float-right-iframe {
+    width: 100%;
+    clear: both;
+  }
+
+  #iframe-map, iframe {
+    width: 100%;
+  }
+
+  .mapouter {
+    position: relative;
+    width: 100%;
+  }
+
+  nav li a {
+    display: block;
+    padding: 10px;
+    position: relative;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  
+  .activated {
+    color: silver;
+    font-size: 1.1rem;
+  }
+
+  nav li a:hover {
+    color: #66cc00;
+    font-size: 1.1rem;
+    }
+
+  #dino-62-image, #dino-63-image, #dino-64-image {
+    position: relative;
+    left: 1%;
+    top: 1%;
+  }
+
+  .video-space {
+    margin-top: 5%;
+  }
+
+/* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
+
+  .phone-table {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table > thead > tr > th,
+    .table-responsive > .table > tbody > tr > th,
+    .table-responsive > .table > tfoot > tr > th,
+    .table-responsive > .table > thead > tr > td,
+    .table-responsive > .table > tbody > tr > td,
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+
+    /* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
+
+    /* W3C CSS Check 11 Sep 2022 */
+
+  }
+
+@media screen and (max-width: 800px) {
+
+  body {
+    margin: 1% 1%;
+  }
+
+  header {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 200%;
+    margin: 0 auto;
+  }
+
+  header h2 {
+    margin: 0 auto;
+  }
+
+  h2, h3, h4 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0 2%;
+    z-index: 100;
+  }
+
+  header p {
+    padding-bottom: 10%;
+    margin: 1% 1%;
+  }
+
+  .float-right {
+    width: 100%;
+    margin: 0 auto;
+    clear:both;
+  }
+
+  .float-left {
+    width: 100%;
+    margin: 0 auto;
+    clear:both;
+  }
+
+  .aside-float-left {
+    width: 100%;
+    margin: 1% 2% 1% 0;
+    clear:both;
+  }
+
+  .section-float-left {
+    width: 100%;
+    margin: 0 auto;
+    clear:both;
+  }
+
+  .section-float-left p {
+    margin: 0 5%;
+  }
+
+  .float-right-iframe {
+    width: 100%;
+    clear: both;
+  }
+
+  #iframe-map, iframe {
+    width: 100%;
+  }
+
+  .mapouter {
+    position: relative;
+    width: 100%;
+  }
+
+  nav li a {
+    display: block;
+    padding: 10px;
+    position: relative;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  
+  .activated {
+    color: silver;
+    font-size: 1.1rem;
+  }
+
+  nav li a:hover {
+    color: #66cc00;
+    font-size: 1.1rem;
+    }
+
+  #dino-62-image, #dino-63-image, #dino-64-image {
+    position: relative;
+    left: 2%;
     top: 1%;
   }
 
