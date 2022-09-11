@@ -492,8 +492,13 @@ footer h3 {
     margin: 0 auto;
   }
 
-  header h2{
+  header h2 {
     margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    text-align: center;
   }
 
   header p {
@@ -515,7 +520,7 @@ footer h3 {
 
   .aside-float-left {
     width: 100%;
-    margin: 0 auto;
+    margin: 1% 2% 1% 0;
     clear:both;
   }
 
@@ -563,6 +568,10 @@ footer h3 {
     position: relative;
     left: 5%;
     top: 1%;
+  }
+
+  .video-space {
+    margin-top: 5%;
   }
 
 /* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
