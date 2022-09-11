@@ -476,14 +476,29 @@ footer h3 {
 
 @media screen and (max-width: 800px) {
 
+  body {
+    margin: 1% 1%;
+  }
+
   header {
+    margin: 0 auto;
     height: auto;
     text-align: center;
-    margin: 0 auto;
+    width: 100%;
   }
 
   header h1 {
     font-size: 200%;
+    margin: 0 auto;
+  }
+
+  header h2{
+    margin: 0 auto;
+  }
+
+  header p {
+    padding-bottom: 10%;
+    margin: 1% 1%;
   }
 
   .float-right {
@@ -512,17 +527,42 @@ footer h3 {
 
   .float-right-iframe {
     width: 100%;
-    float: right;
     margin: 1% 1%;
     clear: both;
   }
 
+  #iframe-map, iframe {
+    width: 100%;
+  }
+
   .mapouter {
     position: relative;
+    width: 100%;
   }
 
   nav li a {
-    display: table;
+    display: block;
+    padding: 10px;
+    position: relative;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  
+  .activated {
+    color: silver;
+    font-size: 1.1rem;
+  }
+
+  nav li a:hover {
+    color: #66cc00;
+    font-size: 1.1rem;
+    }
+
+  #dino-62-image, #dino-63-image, #dino-64-image {
+    position: relative;
+    left: 5%;
+    top: 1%;
   }
 
 /* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
@@ -546,9 +586,8 @@ footer h3 {
         white-space: nowrap;
     }
 
+    /* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
 
     /* W3C CSS Check 11 Sep 2022 */
-
-    /* https://ourcodeworld.com/articles/read/307/how-to-create-a-responsive-table-with-css */
 
   }
