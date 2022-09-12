@@ -29,7 +29,9 @@ Home page/main intro, showing popular question with interaction with the use of 
 
 Footer section for all pages. Making it easy to sign up for a newsletter, site navigation, giving credit to influencing sites and links to social media.    
 
-![Footer](IMAGES_MD/Footer.png)     
+![Footer](IMAGES_MD/Footer.png)    
+
+
 
 
 
