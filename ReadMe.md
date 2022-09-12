@@ -7,15 +7,27 @@ After a trip and holiday to the Burren in 2020 it ignited an interest in Irish G
 
 ##  Site Navigation   
 
-###### Header Navigation   
+### Header Navigation   
 
 Basic and functional header navigation with acitivated css to highlight current page.   
 
 ![Header Navigation](IMAGES_MD/HeaderNav.png)   
 
+### Footer Navigation   
+
 Footer Navigation/Site Map to make it easier to navigate the site without the need to scrool to the top.    
 
 ![Footer Navigation](IMAGES_MD/FooterNav.png)    
+
+## Main Intro   
+
+Home page/main intro, showing popular question with interaction with the use of summary tags. Side bar showing on what is coming up next and popular. Links and credits to information sources. Highlighting Irish Geology Sites.    
+
+![Main Itro Section - Home Page](IMAGES_MD/MainSectionHome.png)    
+
+## Footer Section    
+
+
 
 
 
