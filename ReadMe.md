@@ -47,8 +47,16 @@ Mesozic Time Line Table with information from Simple Wiki.
 Interactive photos and text, showing where Ireland was during the Mesozic Era.    
 
 ![Interactive Pictures](IMAGES_MD/GrowPics.png)    
+[Geological Survey Ireland](https://www.example.com)     
 
 ### Embedded Video    
+
+Embedded Showing Ireland throughout Geological Time.   
+
+![Interactive Pictures](IMAGES_MD/EmbeddeVideo.png)        
+[Geological Survey Ireland](https://www.example.com)    
+
+
 
 
 
