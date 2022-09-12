@@ -51,9 +51,9 @@ Interactive photos and text, showing where Ireland was during the Mesozic Era.
 
 ### Embedded Video    
 
-Embedded Showing Ireland throughout Geological Time.   
+Embedded Video showing Ireland throughout Geological Time.   
 
-![Interactive Pictures](IMAGES_MD/EmbeddeVideo.png)        
+![Geo Video](IMAGES_MD/GeoVideo.png)        
 [Geological Survey Ireland](https://www.example.com)    
 
 
