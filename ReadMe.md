@@ -33,8 +33,14 @@ Footer section for all pages. Making it easy to sign up for a newsletter, site n
 
 ## Time Line    
 
+Time Line page for exploring Mesozic Era and where Ireland was.    
+
 ### Table   
 
+Mesozic Time Line Table with information from Simple Wiki.
+
+![Main Footer](IMAGES_MD/Table.png)         
+[Geological Time Line - Simple Wiki](https://simple.wikipedia.org/wiki/Geologic_time_scale)     
 
 ### Interactive Photos    
 
