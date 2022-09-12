@@ -1,6 +1,7 @@
 # Geological Time - Mesozoic Era     
 
-After a trip and holiday to the Burren in 2020 it ignited an interest in Irish Geology. The site is a starting point to inspire people to explore Geology and Geology in Ireland. There is so much to explore in Geology and dinosuars are what most people are drawn to first. I hope to inspire people to sign up and help the site to grow and decide on what to explore next. Drip feed Irish Geology, as our sea shores and aprks are full of fossils to view in the open.
+After a trip and holiday to the Burren in 2020 it ignited an interest in Irish Geology. The site is a starting point to inspire people to explore Geology and Geology in Ireland. There is so much to explore in Geology and dinosuars are what most people are drawn to first. I hope to inspire people to sign up and help the site to grow and decide on what to explore next. Drip feed Irish Geology, as our sea shores and aprks are full of fossils to view in the open. It is hoped with the chosen color and font scheme it will capture people of all ages.        
+
 
 ![Home Page](IMAGES_MD/HomePageSection_001.png)    
 

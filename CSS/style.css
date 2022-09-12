@@ -137,6 +137,10 @@ nav ul {
     font-size: 1.5rem;
   }
 
+  summary:hover {
+    color: #45a049;
+  }
+
 li a { 
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
