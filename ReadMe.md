@@ -1,4 +1,27 @@
-# Milestone 1 - GeoTime  
+# Geological Time - Mesozoic Era     
+
+After a trip and holiday to the Burren in 2020 it ignited an interest in Irish Geology. The site is a starting point to inspire people to explore Geology and Geology in Ireland. There is so much to explore in Geology and dinosuars are what most people are drawn to first. I hope to inspire people to sign up and help the site to grow and decide on what to explore next. Drip feed Irish Geology, as our sea shores and aprks are full of fossils to view in the open.
+
+![Home Page](IMAGES_MD/HomePageSection_001.png)    
+
+##  Site Navigation   
+
+###### Header Navigation   
+
+Basic and functional header navigation with acitivated css to highlight current page.   
+
+![Header Navigation](IMAGES_MD/HeaderNav.png)   
+
+Footer Navigation/Site Map to make it easier to navigate the site without the need to scrool to the top.    
+
+![Footer Navigation](IMAGES_MD/FooterNav.png)    
+
+
+
+
+
+
+
 
 ## Suprises  
 ### Git Pull
