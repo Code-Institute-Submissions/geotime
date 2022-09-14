@@ -61,4 +61,34 @@ Embedded Video showing Ireland throughout Geological Time.
 Given more time, it would be nice to add more,   
 - Interactice CSS photo gallery.   
 - Interactive map showing sites of interest in Ireland.   
-- Grow the table and make it more active with css pop outs.   
+- Grow the table and make it more active with css pop outs.    
+
+## Testing   
+
+I did not start using html/css validator until half way through by project. On my next project I will be using it much sooner. It proved a very useful tool for error solving, and figuring out why my CSS was not working, because of missing tags and more.
+
+### Validator Testing     
+
+HTML error checking using jigsaw.w3.org.   
+
+![HTML Error Check 14-Sep-2022](IMAGES_MD/ErrorCheck_2022-09-14%2020-18-41.png)    
+
+CSS error checking using validator.w3.org.    
+
+![CSS Error Check 14-Sep-2022](IMAGES_MD/CSS_Error_Check_2022-09-14%2020-20-03.png)     
+
+### Unfixed Bugs    
+
+More so still have to get more experience positioning and centering elements. More practice, pratice and more practice. I spent some time trying out the website on several screen sizes, and work resonably well. When I tried to down size it on the desktop browser (ctrl -) the sites starts to fall apart. Not something I had thought about when starting the site.
+
+## Deployment     
+
+Setting up the website on GitHub was a little different from the Code Insitute tutorial. GitHub has a excellent help system, so no issues with the setup. A few corrections had to made to file paths but overall a sucesssful deployment.
+
+## Credits   
+
+#### Content    
+
+### Media     
+
+
